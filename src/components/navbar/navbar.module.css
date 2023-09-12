@@ -1,0 +1,29 @@
+.navbarContainer {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid #ece7e7;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.innerDiv {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 165px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}

@@ -1,0 +1,130 @@
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.menuContainer {
+  padding-left: 64px;
+  padding-top: 16px;
+  background-color: white;
+  padding-bottom: 35px;
+  box-shadow: 0 1px 4px #00000014;
+  margin-bottom: 30px;
+}
+
+.sectionTitle {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.backBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70px;
+  justify-content: space-between;
+  color: #00ccbc;
+  /* justify-content: center; */
+}
+
+.imageDiv {
+  width: 360px;
+  height: 222px;
+}
+
+.menuImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.menuHighlight {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-right: 250px;
+}
+
+.menuHeading {
+  font-size: 40px;
+  line-height: 48px;
+  color: #2e3333;
+  margin-bottom: 12px;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 22px;
+  color: #2e3333;
+}
+
+.info {
+  font-size: 16px;
+  line-height: 22px;
+  color: #585c5c;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.mainMenu {
+  background-color: #f9fafa;
+  width: 100%;
+}
+
+.areas {
+  flex-direction: row;
+  display: flex;
+  padding-left: 64px;
+  padding-top: 16px;
+}
+
+.menuSection {
+  width: 900px;
+}
+
+.cartSection {
+  width: 500px;
+  height: 300px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.section {
+  display: grid;
+  grid-auto-rows: auto;
+  grid-gap: 16px;
+  grid-template: auto/repeat(2, 1fr);
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 35px;
+  padding-bottom: 15px;
+  box-shadow: 0 1px 4px #00000014;
+}
+
+.cartText {
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+.checkouteBtn {
+  border: none;
+  color: #abadad;
+  background: #e2e5e5;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  line-height: 24px;
+  margin-bottom: 9px;
+  width: 100%;
+}

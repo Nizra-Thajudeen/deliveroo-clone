@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+
+p {
+  all: unset;
+}
+
+h1 {
+  margin-top: unset;
+  margin-bottom: unset;
+}
+
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+}

@@ -1,0 +1,17 @@
+.sectionTitle{
+    font-size: 22px;
+      line-height: 28px;
+      font-weight: 700;
+      margin-bottom: 18px;
+  }
+
+  .section {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-gap: 16px;
+    grid-template: auto/repeat(2, 1fr);
+  }
+
+  .menuSection{
+    margin-bottom: 35px;
+  }

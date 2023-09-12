@@ -1,0 +1,19 @@
+.primaryButton {
+  border: 0.5px solid #ece7e7;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 22px;
+  background-color: white !important;
+}
+
+.buttonDiv {
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-left: 10px;
+}

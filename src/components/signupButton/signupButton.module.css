@@ -1,0 +1,24 @@
+.signupButton {
+  width: 100%;
+  /* height: 64px; */
+  border-radius: 4px;
+  background-color: white;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid #a3afaf !important; */
+}
+
+.innerButton {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-left: 10px;
+}
