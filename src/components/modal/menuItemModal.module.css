@@ -1,0 +1,69 @@
+.modalDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.innerModalDiv {
+  width: 500px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.cancelIcon {
+  position: absolute;
+  right: 34%;
+  top: 15%;
+  color: #00ccbc;
+}
+
+.selectedItemImg {
+  width: 100%;
+  height: 330px;
+  object-fit: fill;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+}
+
+.countDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.numberText {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.buttonDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.addToCartBtn {
+  border: none;
+  color: #ffffff;
+  background: #00ccbc;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  line-height: 24px;
+  margin-bottom: 25px;
+  width: 90%;
+}

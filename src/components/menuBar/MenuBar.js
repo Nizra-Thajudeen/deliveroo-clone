@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 
 const MenuBar = ({icon, isColor, title, description}) => {
 
-  const menu = useSelector((state) => state.menu);
+  const menu = useSelector((state) => state.menu.menuData);
 
     return (
         <div className={styles.navbarContainer}>

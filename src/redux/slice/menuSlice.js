@@ -8,16 +8,21 @@ export const getMenuData = createAsyncThunk("menu/getMenuData", async () => {
 
 export const menuSlice = createSlice({
   name: "menu",
-  initialState: [],
-  reducers: {},
+  initialState: { menuData: [], selectedMenuData: { name: "", image: "" } },
+  reducers: {
+    setSelectedMenu: (state, action) => {
+      state.selectedMenuData = action.payload;
+      return state;
+    },
+  },
   extraReducers: {
     [getMenuData.fulfilled]: (state, action) => {
-      state = action.payload;
+      state.menuData = action.payload;
       return state;
     },
   },
 });
 
-export const { addMenu, getMenu } = menuSlice.actions;
+export const { getMenu, setSelectedMenu } = menuSlice.actions;
 
 export default menuSlice.reducer;

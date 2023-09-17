@@ -14,12 +14,22 @@ import MenuButton from "../../components/menuButton/MenuButton";
 import StarIcon from '@mui/icons-material/Star';
 import MenuSection from "../../components/menuSection/MenuSection";
 import MenuBar from "../../components/menuBar/MenuBar";
+import MenuItemModal from "../../components/modal/MenuItemModal";
 
 
 const Menu = () => {
   const dispatch = useDispatch();
 
-  const menu = useSelector((state) => state.menu);
+  const menu = useSelector((state) => state.menu.menuData);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleOpen = () => {
+    setIsOpen(true);
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
+  };
   
   useEffect(() => {
     dispatch(getMenuData());
@@ -71,7 +81,7 @@ const Menu = () => {
       <div className={styles.areas}>
         <div className={styles.menuSection}>
         {menu.map((section) => {
-          return <MenuSection title={section.sectionTitle} products={section.products} />;
+          return <MenuSection title={section.sectionTitle} products={section.products} handleOpen={handleOpen} />;
         })}
         </div>
         <div className={styles.cartSection}>
@@ -83,6 +93,7 @@ const Menu = () => {
         </div>
       </div>
     </div>
+    <MenuItemModal isOpen={isOpen} handleClose={handleClose} />
     </div>
   );
 };
