@@ -127,3 +127,51 @@
   margin-bottom: 9px;
   width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  .menuSection {
+    width: 100%;
+  }
+
+  .cartSection {
+    display: none;
+  }
+  
+  .menuHighlight {
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .groupOrder{
+    display: none;
+  }
+
+  .areas{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .rowContainer {
+    display: block;
+    margin-top: 0px;
+  }
+
+  .menuContainer {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .imageDiv {
+    width: 100%
+  }
+
+  .menuHeading {
+    font-size: 28px;
+    margin-bottom: 1px;
+  }
+
+  .backBtn{
+    display: none;
+    /* justify-content: center; */
+  }
+}

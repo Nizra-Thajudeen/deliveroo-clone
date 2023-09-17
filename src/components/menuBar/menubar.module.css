@@ -9,25 +9,31 @@
     top: 80px;
     background-color: white;
   }
-  .innerDiv {
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
+.innerDiv {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 
-  .activeLink{
-    padding: 5px 12px;
-    background-color: #00ccbc;
-    border-radius: 32px;
-    font-weight: 700;
-    color: white !important;
-  }
+.activeLink{
+  padding: 5px 12px;
+  background-color: #00ccbc;
+  border-radius: 32px;
+  font-weight: 700;
+  color: white !important;
+}
 
-  .menulink{
-    margin-left: 20px;
-    font-size: 14;
-    color: #00ccbc;
-  }
+.menulink{
+  margin-left: 20px;
+  font-size: 14px;
+  color: #00ccbc;
+}
   
+  
+@media only screen and (max-width: 768px) {
+  .menulink{
+    font-size: 12px;
+  }
+}

@@ -55,7 +55,7 @@ const Menu = () => {
             <MenuButton icon={<InfoOutlinedIcon />} title={"Info"} description={"Map, allergens and hygiene rating"} isColor={false} />
             <MenuButton icon={<StarIcon />} title={"4.7 Excellent"} description={"See all 500 reviews"} isColor={true} />
           </div>
-          <div>
+          <div className={styles.groupOrder}>
             <PrimaryButton
               icon={
                 <PeopleOutlineIcon
