@@ -1,16 +1,20 @@
+import { Element } from "react-scroll";
 import MenuCard from "../menuCard/MenuCard";
 import styles from "./menusection.module.css";
 
-const MenuSection = ({ title, products }) => {
+const MenuSection = ({title, products}) => {
   return (
     <div className={styles.menuSection}>
-      <h1 className={styles.sectionTitle}>{title}</h1>
-      <div className={styles.section}>
-        {products.map((menuItem) => {
-          return <MenuCard title={menuItem.name} image={menuItem.image} />;
-        })}
-      </div>
+      <Element name={title.split(' ').join('')} className="element">
+        <h1 className={styles.sectionTitle}>{title}</h1>
+              <div className={styles.section}>
+              {products.map((menuItem) => {
+                  return <MenuCard />;
+              })}
+              </div>
+            </Element>
     </div>
+    
   );
 };
 

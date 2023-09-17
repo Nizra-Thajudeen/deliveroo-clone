@@ -13,6 +13,7 @@ import MenuButton from "../../components/menuButton/MenuButton";
 
 import StarIcon from '@mui/icons-material/Star';
 import MenuSection from "../../components/menuSection/MenuSection";
+import MenuBar from "../../components/menuBar/MenuBar";
 
 
 const Menu = () => {
@@ -66,6 +67,7 @@ const Menu = () => {
           </div>
         </div>
       </div>
+      <MenuBar />
       <div className={styles.areas}>
         <div className={styles.menuSection}>
         {menu.map((section) => {

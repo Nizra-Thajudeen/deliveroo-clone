@@ -1,0 +1,33 @@
+.navbarContainer {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #ece7e7;
+    border-top: 1px solid #00000014;
+    position: sticky;
+    top: 80px;
+    background-color: white;
+  }
+  .innerDiv {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .activeLink{
+    padding: 5px 12px;
+    background-color: #00ccbc;
+    border-radius: 32px;
+    font-weight: 700;
+    color: white !important;
+  }
+
+  .menulink{
+    margin-left: 20px;
+    font-size: 14;
+    color: #00ccbc;
+  }
+  
