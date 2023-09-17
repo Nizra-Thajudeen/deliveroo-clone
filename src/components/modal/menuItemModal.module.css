@@ -67,3 +67,10 @@
   margin-bottom: 25px;
   width: 90%;
 }
+
+@media only screen and (max-width: 768px) {
+  .cancelIcon {
+    right: 2%;
+    top: 22%;
+  }
+}
